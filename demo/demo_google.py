@@ -6,7 +6,7 @@ from PicImageSearch import Google, Network
 from PicImageSearch.model import GoogleResponse
 from PicImageSearch.sync import Google as GoogleSync
 
-proxies = "http://127.0.0.1:1081"
+proxies = "http://127.0.0.1:12341"
 # proxies = None
 url = "https://raw.githubusercontent.com/kitUIN/PicImageSearch/main/demo/images/test03.jpg"
 file = open(r"images/test03.jpg", "rb")
